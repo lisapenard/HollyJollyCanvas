@@ -1,0 +1,60 @@
+body
+{ 
+ background: url(../images/winterforest.png) repeat-x bottom center, 
+ linear-gradient(to bottom, #060e44, rgb(17, 41, 136));
+ margin:0;
+}
+
+.canvasContainer{
+	width:100%;
+	position:relative;
+  }
+
+.canvasContainer canvas
+{
+	width:100%;
+	height:100vh;
+}
+
+.btnSanta
+{
+	position:absolute;
+	top: calc(100vh / 2 - 160px);
+	left: calc(100% / 2 - 160px);
+	
+	width:320px;
+	height:320px;
+	border-radius:50%;
+}
+.btnSanta:hover
+{
+	cursor:pointer;
+}
+
+.btnMusic
+{
+	position:absolute;
+	bottom: 50px;
+	left: 50px;
+	
+	width:60px;
+	text-align:center;
+	line-height:60px;
+	border-radius:50%;
+	background-color:white;
+	color:red;
+}
+.btnMusic:hover
+{
+	cursor:pointer;
+	background-color:red;
+	color:white;
+}
+.fa
+{display:none; line-height: 50px; font-size:11px;}
+.fa-music, .fa-play
+{display:inline-block;}
+
+
+
+

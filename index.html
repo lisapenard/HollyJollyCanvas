@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Canvas</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+  </head>
+  <body>
+
+    <div class="canvasContainer">
+      <canvas></canvas>
+      <div class="btnSanta"></div>
+      <div class="btnMusic" onclick="toggleMusic()"><i class="fa fa-play"></i><i class="fa fa-pause"></i></div>
+    </div>
+    
+    <audio class="audioPlayer" src="hollyjolly.mp3" onended="loopMusic();"></audio>
+    <script src="scripts/script.js"></script>
+  </body>
+</html> 
